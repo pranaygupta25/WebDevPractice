@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* All this was just for centering the card in the middle of the page */
+
+/* Main CSS */
+.card {
+    width: 20vw;
+    height: 50vh;
+
+    border: 2px solid rgba(14, 148, 210, 0.3);          /* delete this for removing the border */
+    border-radius: 25px;                                  /* delete this for removing the border */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 80%;
+}
+img{
+    width: 100%;
+    border-radius: 50%;
+}
+.separator{
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+    height: 2px;
+    width: 30%;
+    background-color: rgba(14, 148, 210, 0.3);
+}
+.name{
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+.designation{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 0.75em;
+    opacity: 75%;
+}
